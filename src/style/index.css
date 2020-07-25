@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'MSYH';
+    src: url('/font/msyh.ttf') format('truetype');
+}
+
+body{
+    font-family: 'MSYH';
+    font-size: 16px !important;
+}
