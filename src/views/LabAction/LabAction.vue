@@ -5,7 +5,7 @@
         <div class="title">
           单细胞克隆实验
         </div>
-        <LabAction/>
+        <LabActionScreen />
       </el-aside>
       <el-container>
         <el-header height="60px" class="Header">
@@ -25,12 +25,12 @@
 
 <script>
 // @ is an alias to /src
-import LabAction from '@/views/LabAction/LabAction.vue'
+import LabActionScreen from '@/views/LabAction/LabActionScreen.vue'
 
 export default {
   name: 'Home',
   components: {
-      LabAction,
+      LabActionScreen,
   }
 }
 </script>
